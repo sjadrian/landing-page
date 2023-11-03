@@ -12,8 +12,7 @@ body {
 
 .header-container {
     color: #F9FAF8;
-    /* margin: 24px; */
-    padding: 24px 128px;
+    padding: 24px 256px;
     display: flex;
     justify-content: space-between;
 }
@@ -51,7 +50,7 @@ a {
   }
 
 .content-one-container {
-    padding: 84px 128px;
+    padding: 84px 256px;
     display: flex;
     justify-content: space-between;
 }
@@ -166,7 +165,7 @@ a {
 
 
 .content-four-container {
-    margin: 84px 128px;
+    margin: 84px 256px;
     background-color: #3882f6;
     border-radius: 12px;
     display: flex;
@@ -200,7 +199,7 @@ a {
 
 .content-four-button {
     background: none;
-    color: #E5E7EB;
+    color: white;
     border-radius: 10px;
     font-size: 18px;
     padding: 8px 24px;
