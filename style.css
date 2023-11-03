@@ -12,7 +12,8 @@ body {
 
 .header-container {
     color: #F9FAF8;
-    margin: 24px;
+    /* margin: 24px; */
+    padding: 24px 128px;
     display: flex;
     justify-content: space-between;
 }
@@ -47,17 +48,17 @@ a {
 
 .content-one {
     background-color: #1F2937;
-    padding-bottom: 32px;
   }
 
 .content-one-container {
-    margin: 24px;
+    padding: 84px 128px;
     display: flex;
     justify-content: space-between;
 }
 
 .content-one-left {
     flex: 1;
+    margin-right: 12px;
 }
 
 .content-one-left-hero {
@@ -65,14 +66,12 @@ a {
     font-weight: bold;
     color: #E5E7EB;
     margin-bottom: 12px;
-
 }
 
 .content-one-left-text {
     font-size: 18px;
     color: #E5E7EB;
     margin-bottom: 12px;
-
 }
 
 .blue-button {
@@ -80,8 +79,9 @@ a {
     color: #E5E7EB;
     border-radius: 10px;
     font-size: 18px;
+    font-weight: bold;
     border: none;
-    padding: 12px;
+    padding: 8px 24px;
 }
 
 .content-one-right {
@@ -94,11 +94,10 @@ a {
 }
 
 .content-two {
-    padding-bottom: 32px;
 }
 
 .content-two-container {
-    margin: 24px;
+    padding: 84px 128px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,15 +106,14 @@ a {
 
 .content-two-hero {
     font-size: 36px;
-    font-weight: bold;
+    font-weight: bolder;
     color: #1F2937;
-    margin-bottom: 12px;
+    margin-bottom: 84px;
 }
 
 .content-two-cards {
     display: flex;
-    margin: 0 32px;
-    gap: 12px;
+    gap: 32px;
 }
 
 .card {
@@ -135,6 +133,8 @@ a {
 
 .card-text {
     text-align: center;
+    width: 200px;
+    font-size: 18px;
 }
 
 .content-three {
@@ -142,12 +142,12 @@ a {
 }
 
 .content-three-container {
+    padding: 84px 256px;
     display: flex;
     flex-direction: column;
-    margin: 24px;
     justify-content: center;
     align-items: stretch;
-    padding: 32px;
+    
 }
 
 .content-three-quote {
@@ -166,9 +166,9 @@ a {
 
 
 .content-four-container {
-    margin: 24px;
+    margin: 84px 128px;
     background-color: #3882f6;
-    border-radius: 16px;
+    border-radius: 12px;
     display: flex;
     padding: 32px;
 }
@@ -177,6 +177,7 @@ a {
     display: flex;
     flex-direction: column;
     flex: 6;
+    margin-left: 32px;
 }
 
 .content-four-hero {
@@ -193,7 +194,8 @@ a {
 .content-four-right {
     flex: 1;
     display: flex;
-    justify-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .content-four-button {
@@ -201,7 +203,7 @@ a {
     color: #E5E7EB;
     border-radius: 10px;
     font-size: 18px;
-    padding: 12px;
+    padding: 8px 24px;
     border: 2px solid white;
 }
 
